@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Split Screen Tabs",
+  "version": "1.0",
+  "description": "Allows split-screen viewing of two tabs.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "sidebar_action": {
+    "default_title": "Split Screen",
+    "default_panel": "sidebar.html"
+  },
+  "action": {
+    "default_title": "Split Screen",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}
