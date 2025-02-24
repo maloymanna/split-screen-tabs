@@ -6,16 +6,16 @@
 </head>
 <body>
   <div id="sidebar">
-    <h2>Actions</h2>
-    <ul id="actions-list">
-      <li><a href="#" id="refresh">Refresh</a></li>
-    </ul>
-    <hr>
-    <h2>Open Tabs (except active tab)</h2>
+    <h2>Open Tabs</h2>
     <ul id="tabs-list"></ul>
     <footer>
       <p>This extension allows you to view two tabs side-by-side in a split-screen layout. Click a tab in the sidebar to open it alongside your current tab.</p>
-      <p><strong>Note:</strong> The sidebar is a duplicate view. Closing the original tab will not close the tab loaded in the sidebar.</p>
+      <strong>Notes:</strong>
+      <ul>
+        <li>The sidebar is a duplicate view. Closing the original tab will not close the tab loaded in the sidebar.</li>
+        <li>Due to Firefox event behavior, if any inactive tab is closed, it would still show in the sidebar, till the focus doesn't change from the active tab.</li>
+        <li>Firefox View cannot be used in the sidebar as it's not a real tab but a synthetic view.</li>
+      </ul>
     </footer>
   </div>
   <script src="sidebar.js"></script>

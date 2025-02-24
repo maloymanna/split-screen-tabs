@@ -5,8 +5,7 @@ body {
 }
 
 #sidebar {
-  width: 50%;
-  float: right;
+  width: 100%; /* Full width of the sidebar */
   padding: 10px;
   box-sizing: border-box;
 }
@@ -14,11 +13,13 @@ body {
 h2 {
   font-size: 16px;
   margin-bottom: 10px;
+  text-align: left; /* Left-align headings */
 }
 
 ul {
   list-style-type: disc;
   padding-left: 20px;
+  margin: 0; /* Remove default margin */
 }
 
 li {
@@ -34,23 +35,23 @@ a:hover {
   text-decoration: underline;
 }
 
-.truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 150px;
-  display: inline-block;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background: #ccc;
-  margin: 10px 0;
+.url {
+  color: #0645ad; /* Hyperlink blue color */
 }
 
 footer {
   margin-top: 20px;
   font-size: 12px;
   color: #666;
+  text-align: left; /* Left-align footer text */
+}
+
+footer ul {
+  list-style-type: disc; /* Bullet points for notes */
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+footer ul li {
+  margin: 5px 0;
 }
