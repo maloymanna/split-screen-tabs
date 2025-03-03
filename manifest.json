@@ -3,6 +3,8 @@
   "name": "Split Screen Tabs",
   "version": "1.0",
   "description": "Allows split-screen viewing of two tabs.",
+  "author": "Maloy Manna",
+  "homepage_url": "https://github.com/maloymanna/split-screen-tabs",
   "permissions": [
     "tabs",
     "storage"
